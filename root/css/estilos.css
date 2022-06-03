@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto&family=Rokkitt&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://4.bp.blogspot.com/-jDcqEFr898k/XBAeeuO_B3I/AAAAAAAAAEM/ugCkZsDFoN8_HGj34Mcs6O61GvNDzcKaACLcBGAs/s1600/phpCode.png');
+}
+
+header img{
+    width: 100px;
+    margin-right: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    text-align: center;
+    padding: 20px;
+}
+
+header a{
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: rgb(170, 0, 255);
+}
+
+section{
+    margin: 50px;
+}
+
+section h1{
+    margin-bottom: 20px;
+}
+
+footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    background-color: #C4C4C4;
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+}
+
+footer img{
+    width: 50px;
+}
+
